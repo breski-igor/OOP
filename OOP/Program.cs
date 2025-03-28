@@ -5,6 +5,7 @@ using OOP.Inheritance.BadExample;
 using OOP.Inheritance.GoodExample;
 using OOP.Composition; 
 using static OOP.Encapsulation.BankAccountService;
+using OOP.Aggregation;
 
 
 // Encapsulation
@@ -22,10 +23,13 @@ using static OOP.Encapsulation.BankAccountService;
 // Polymorphism
 //OOP.Polymorphism.BadExample.BadProgram.Main();
 //OOP.Polymorphism.GoodExample.GoodProgram.Main();
+//OOP.Polymorphism.MethodOverloading.Main();
+//OOP.Polymorphism.OperatorOverloading.Main();
 
 // Coupling
 //OOP.Coupling.BadExample.BadProgram.Main();
 //OOP.Coupling.GoodExample.GoodProgram.Main();
 
 // Composition
-CarExample.Main();
+//CarExample.Main();
+Aggregation.Main();
